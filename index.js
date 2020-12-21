@@ -17,3 +17,5 @@ app.get("/api/hello-world-get", (req, res) => {
 app.post("/api/hello-world-post", (req, res) => {
   res.send(req.body);
 });
+
+console.log("poggers")
